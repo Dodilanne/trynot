@@ -1,0 +1,62 @@
+{
+  "name": "trynot",
+  "description": "Rust-like results in TypeScript",
+  "version": "0.0.1",
+  "author": "Dodilanne",
+  "bugs": {
+    "url": "https://github.com/dodilanne/trynot/issues"
+  },
+  "homepage": "https://github.com/dodilanne/trynot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodilanne/trynot.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "typesafe",
+    "try",
+    "catch",
+    "result",
+    "error",
+    "handling",
+    "wrap",
+    "unwrap",
+    "ok",
+    "err"
+  ],
+  "license": "MIT",
+  "sideEffects": false,
+  "files": ["**"],
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.mts",
+  "scripts": {
+    "build": "tsup",
+    "check": "tsc --noEmit",
+    "lint": "biome check --write .",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "pre": "npm run lint && npm run check && npm run build && npm run test"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "require": {
+        "types": "./index.d.ts",
+        "require": "./index.js"
+      },
+      "import": {
+        "types": "./index.d.mts",
+        "import": "./index.mjs"
+      }
+    }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.13.4",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
