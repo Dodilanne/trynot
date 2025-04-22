@@ -50,6 +50,106 @@
         "types": "./index.d.mts",
         "import": "./index.mjs"
       }
+    },
+    "./get-failure-reason": {
+      "require": {
+        "types": "./get-failure-reason.d.ts",
+        "require": "./get-failure-reason.js"
+      },
+      "import": {
+        "types": "./get-failure-reason.d.mts",
+        "import": "./get-failure-reason.mjs"
+      }
+    },
+    "./is-err": {
+      "require": {
+        "types": "./is-err.d.ts",
+        "require": "./is-err.js"
+      },
+      "import": {
+        "types": "./is-err.d.mts",
+        "import": "./is-err.mjs"
+      }
+    },
+    "./is-ok": {
+      "require": {
+        "types": "./is-ok.d.ts",
+        "require": "./is-ok.js"
+      },
+      "import": {
+        "types": "./is-ok.d.mts",
+        "import": "./is-ok.mjs"
+      }
+    },
+    "./parse-error": {
+      "require": {
+        "types": "./parse-error.d.ts",
+        "require": "./parse-error.js"
+      },
+      "import": {
+        "types": "./parse-error.d.mts",
+        "import": "./parse-error.mjs"
+      }
+    },
+    "./result": {
+      "require": {
+        "types": "./result.d.ts",
+        "require": "./result.js"
+      },
+      "import": {
+        "types": "./result.d.mts",
+        "import": "./result.mjs"
+      }
+    },
+    "./unwrap-or-else": {
+      "require": {
+        "types": "./unwrap-or-else.d.ts",
+        "require": "./unwrap-or-else.js"
+      },
+      "import": {
+        "types": "./unwrap-or-else.d.mts",
+        "import": "./unwrap-or-else.mjs"
+      }
+    },
+    "./unwrap-or-undefined": {
+      "require": {
+        "types": "./unwrap-or-undefined.d.ts",
+        "require": "./unwrap-or-undefined.js"
+      },
+      "import": {
+        "types": "./unwrap-or-undefined.d.mts",
+        "import": "./unwrap-or-undefined.mjs"
+      }
+    },
+    "./unwrap-or": {
+      "require": {
+        "types": "./unwrap-or.d.ts",
+        "require": "./unwrap-or.js"
+      },
+      "import": {
+        "types": "./unwrap-or.d.mts",
+        "import": "./unwrap-or.mjs"
+      }
+    },
+    "./unwrap": {
+      "require": {
+        "types": "./unwrap.d.ts",
+        "require": "./unwrap.js"
+      },
+      "import": {
+        "types": "./unwrap.d.mts",
+        "import": "./unwrap.mjs"
+      }
+    },
+    "./wrap": {
+      "require": {
+        "types": "./wrap.d.ts",
+        "require": "./wrap.js"
+      },
+      "import": {
+        "types": "./wrap.d.mts",
+        "import": "./wrap.mjs"
+      }
     }
   },
   "devDependencies": {
