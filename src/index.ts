@@ -1,3 +1,4 @@
+export { assert } from "./assert";
 export { getFailureReason } from "./get-failure-reason";
 export { isErr } from "./is-err";
 export { isOk } from "./is-ok";
