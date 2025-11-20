@@ -1,7 +1,7 @@
 {
   "name": "trynot",
   "description": "Rust-like results in TypeScript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Dodilanne",
   "bugs": {
     "url": "https://github.com/dodilanne/trynot/issues"
@@ -109,6 +109,16 @@
       "import": {
         "types": "./result.d.mts",
         "import": "./result.mjs"
+      }
+    },
+    "./types": {
+      "require": {
+        "types": "./types.d.ts",
+        "require": "./types.js"
+      },
+      "import": {
+        "types": "./types.d.mts",
+        "import": "./types.mjs"
       }
     },
     "./unwrap-or-else": {
